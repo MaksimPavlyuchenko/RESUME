@@ -31,17 +31,17 @@ ul {
   height: auto;
 
   background-color: #dcdcdc;
-  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+  /* box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
     rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
     rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
     rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
-    rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px; */
 }
 
 /* HEADER */
 .header {
   padding-top: 50px;
-  padding-bottom: 50px;
+  /* padding-bottom: 50px; */
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
@@ -49,8 +49,7 @@ ul {
 
   text-align: center;
   max-width: 1200px;
-
-  background-image: linear-gradient(
+  /* background-image: linear-gradient(
       to right,
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
@@ -58,8 +57,9 @@ ul {
     url(./images/fone_resume.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background-position: center; */
+  background-color: #dcdcdc;
+  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
 }
 
 .photo {
@@ -77,11 +77,11 @@ ul {
 
 .title {
   font-size: 60px;
-  color: snow;
+  color: black;
 }
 
 .profession {
-  color: snow;
+  color: black;
 }
 
 .contacts-list {
@@ -97,11 +97,11 @@ ul {
   border: 1px solid transparent;
 }
 
-.contacts-list_item:hover {
+/* .contacts-list_item:hover {
   border: 1px solid #ff7f50;
   border-radius: 4px;
   box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
-}
+} */
 
 .contact-list__link {
   display: flex;
@@ -110,41 +110,41 @@ ul {
   padding: 10px;
   font-size: 20px;
   text-decoration: none;
-  fill: snow;
-  color: snow;
+  fill: black;
+  color: black;
 }
 
-.contact-list__link:hover {
+/* .contact-list__link:hover {
   color: #ff7f50;
   fill: #ff7f50;
-}
+} */
 
 .contact-list__icon {
   margin-right: 10px;
 }
 /* TEXT */
 .text {
-  font-family: Ralwey;
-  font-size: 24px;
+  /* font-family: Ralwey; */
+  font-size: 20px;
 }
 
 /* SKILL_SIDE */
 .skills-side {
   padding: 15px;
-  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+  /* box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
     rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
     rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
     rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
-    rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px; */
 }
 
 .side_header {
-  font-size: 26px;
+  font-size: 20px;
 
   width: 350px;
   padding: 10px;
   margin: 0;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 
   text-align: center;
   text-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
@@ -156,18 +156,20 @@ ul {
 .languages-list {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-start;
+  /* align-items: center; */
 
-  font-family: Ralwey;
+  /* font-family: Ralwey; */
   font-size: 20px;
-  margin-bottom: 100px;
+
+  margin-bottom: 80px;
+  margin-left: 80px;
 }
 
 .soft-skills-list,
 .languages-list {
   font-size: 20px;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
 
 .tech-skills-list_item {
@@ -178,11 +180,11 @@ ul {
 .experience-side {
   width: 823px;
   padding: 15px 15px 30px 15px;
-  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+  /* box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
     rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
     rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
     rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
-    rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px; */
 }
 
 .side_header.experience-header {
@@ -191,42 +193,50 @@ ul {
 
 .projects-list_item {
   display: flex;
-  justify-content: start;
+  flex-direction: column;
+  justify-content: flex-start;
   align-items: center;
   border: 1px solid transparent;
 }
 
-.projects-list_item:hover {
+/* .projects-list_item:hover {
   border: 1px solid #ff7f50;
   border-radius: 4px;
-  box-shadow: rgba(255, 255, 255, 0.17) 0px -23px 25px 0px inset,
+  /* box-shadow: rgba(255, 255, 255, 0.17) 0px -23px 25px 0px inset,
     rgba(255, 255, 255, 0.15) 0px -36px 30px 0px inset,
     rgba(255, 255, 255, 0.1) 0px -79px 40px 0px inset,
     rgba(255, 255, 255, 0.06) 0px 2px 1px, rgba(255, 255, 255, 0.09) 0px 4px 2px,
     rgba(255, 255, 255, 0.09) 0px 8px 4px,
     rgba(255, 255, 255, 0.09) 0px 16px 8px,
     rgba(255, 255, 255, 0.09) 0px 32px 16px;
-}
+} */
 
 .project-list_link {
   padding: 10px;
 
-  font-size: 18px;
-  font-family: Realway;
+  font-size: 20px;
+  font-weight: 700;
   text-decoration: none;
   color: black;
 }
+.project-list_text {
+  margin: 0;
+  padding: 10px;
 
-.project-list_link:hover {
+  font-size: 20px;
+}
+
+/* .project-list_link:hover {
   color: #ff7f50;
   fill: #ff7f50;
-}
+} */
 
 .work-list_date {
   display: block;
   width: 390px;
 
   font-weight: 700;
+  font-size: 20px;
   text-align: center;
 
   border: 1px solid black;
@@ -238,7 +248,8 @@ ul {
   margin-bottom: 10px;
   padding: 2px;
 
-  font-weight: 700;
+  font-weight: 500;
+  font-size: 20px;
   text-align: center;
 
   width: 395px;
@@ -259,7 +270,16 @@ ul {
 
 .work-list_text {
   display: block;
-  font-family: Realway;
+  font-size: 20px;
+  /* font-family: Realway; */
+}
+.list-duty_text {
+  font-size: 20px;
+}
+.achievement-work {
+  font-size: 20px;
+  text-align: center;
+  width: 390px;
 }
 
 .education-list {
@@ -276,6 +296,7 @@ ul {
   width: 390px;
 
   font-weight: 700;
+  font-size: 20px;
   text-align: center;
 
   border: 1px solid black;
@@ -284,5 +305,6 @@ ul {
 
 .education-list_text {
   text-align: center;
-  font-weight: 700;
+  font-size: 20px;
+  font-weight: 500;
 }

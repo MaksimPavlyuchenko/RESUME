@@ -281,3 +281,8 @@ ul {
   border: 1px solid black;
   border-radius: 4px;
 }
+
+.education-list_text {
+  text-align: center;
+  font-weight: 700;
+}

@@ -71,8 +71,8 @@ ul {
 
   border-radius: 50%;
   border: 2px solid snow;
-  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
-    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  /* box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px; */
 }
 
 .title {
@@ -147,8 +147,8 @@ ul {
   margin-bottom: 10px;
 
   text-align: center;
-  text-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
-    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  /* text-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px; */
 }
 
 .tech-skills-list,
@@ -163,7 +163,7 @@ ul {
   font-size: 20px;
 
   margin-bottom: 80px;
-  margin-left: 80px;
+  /* margin-left: 80px; */
 }
 
 .soft-skills-list,
